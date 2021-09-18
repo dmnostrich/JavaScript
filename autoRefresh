@@ -1,0 +1,4 @@
+win1 = window.open("https://example.com/");
+tim1 = setInterval(function(){win1.location.href="https://example.com/"},1*60*1000);
+
+//Script will auto refresh webpage every 1 minute
